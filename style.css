@@ -18,13 +18,13 @@ section {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    transform: translateY(-40px);
 }
 .title {
     font-size: 3em;
     margin: 2rem 0rem;
 }
 .faq {
-    /* max-width: 700px; */
     width: 100%;
     margin-top: 2rem;
     padding-bottom: 1rem;
@@ -43,7 +43,6 @@ section {
 .answer {
     max-height: 0;
     overflow: hidden;
-    /* transition: 1.4s; */
 }
 .answer p {
     padding-top: 1rem;
@@ -57,19 +56,15 @@ section {
 .faq.active svg {
     transform: rotate(180deg);
 }
-/* svg {
-    transition: transform 0.5s ease-in-out;
-} */
-/* @keyframes fade {
-    from {
-        opacity: 0;
-        transform: translateY(-10px);
-    }
-    to {
-        opacity: 1;
-        transform: translateY(0px);
-    }
-} */
+footer {
+    position: fixed;
+    padding: 20px;
+    text-align: center;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
 @media (max-width: 972px) {
     .question h3 {
         font-size: 1.4rem;
