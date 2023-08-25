@@ -10,45 +10,47 @@
 </head>
 
 <body>
-    <section>
-        <h1 class="title">FAQs</h1>
-        <div class="faq">
-            <div class="question">
-                <h3>What do I need to get started?</h3>
-                <svg width="15" height="10" viewbox="0 0 42 25">
-                    <path d="M3 3L21 21L39 3" stroke="white" stroke-width="7" stroke-linecap="round" />
-                </svg>
+    <div class="wrapper">
+        <section>
+            <h1 class="title">FAQs</h1>
+            <div class="faq">
+                <div class="question">
+                    <h3>What do I need to get started?</h3>
+                    <svg width="15" height="10" viewbox="0 0 42 25">
+                        <path d="M3 3L21 21L39 3" stroke="white" stroke-width="7" stroke-linecap="round" />
+                    </svg>
+                </div>
+                <div class="answer">
+                    <p>
+                        You need to have content for uploading. If you don't, I will use my own default images and dummy
+                        text.
+                    </p>
+                </div>
             </div>
-            <div class="answer">
-                <p>
-                    You need to have content for uploading. If you don't, I will use my own default images and dummy
-                    text.
-                </p>
+            <div class="faq">
+                <div class="question">
+                    <h3>What if I don't have a domain?</h3>
+                    <svg width="15" height="10" viewbox="0 0 42 25">
+                        <path d="M3 3L21 21L39 3" stroke="white" stroke-width="7" stroke-linecap="round" />
+                    </svg>
+                </div>
+                <div class="answer">
+                    <p>
+                        I'll recommend you a hosting and assist you with it.
+                    </p>
+                </div>
             </div>
-        </div>
-        <div class="faq">
-            <div class="question">
-                <h3>What if I don't have a domain?</h3>
-                <svg width="15" height="10" viewbox="0 0 42 25">
-                    <path d="M3 3L21 21L39 3" stroke="white" stroke-width="7" stroke-linecap="round" />
-                </svg>
-            </div>
-            <div class="answer">
-                <p>
-                    I'll recommend you a hosting and assist you with it.
-                </p>
-            </div>
-        </div>
-    </section>
-    <footer>
-        <p>
-            <script>
-                let date = new Date();
-                let currentY = date.getFullYear();
-                document.querySelector('footer p').innerHTML += `Example &copy; ${currentY}`;
-            </script>
-        </p>
-    </footer>
+        </section>
+        <footer>
+            <p>
+                <script>
+                    let date = new Date();
+                    let currentY = date.getFullYear();
+                    document.querySelector('footer p').innerHTML += `Sheidvasser &copy; ${currentY}`;
+                </script>
+            </p>
+        </footer>
+    </div>
     <script src="script.js"></script>
 </body>
 
